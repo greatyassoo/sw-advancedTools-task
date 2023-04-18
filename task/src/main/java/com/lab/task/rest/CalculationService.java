@@ -1,6 +1,8 @@
 package com.lab.task.rest;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
@@ -28,7 +30,7 @@ public class CalculationService{
     
     @POST
     @Path("/calc")
-    public int createCalculation(Calculation calculation){
+    public Map<String, Integer> createCalculation(Calculation calculation){
         int answer = 0;
 
         switch (calculation.getOperation()){
@@ -49,7 +51,10 @@ public class CalculationService{
         }
 
         entityManager.persist(calculation);
-        return answer;
+        
+        Map<String, Integer> map = new HashMap<>();
+        map.put("result", answer);
+        return map;
     }
 
     @GET
