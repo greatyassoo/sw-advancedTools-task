@@ -1,0 +1,13 @@
+digraph "com.lab:task:war:1.0" { 
+	"com.lab:task:war:1.0" -> "junit:junit:jar:3.8.1:test" ; 
+ } digraph "com.lab:task:war:1.0" { 
+	"com.lab:task:war:1.0" -> "junit:junit:jar:3.8.1:test" ; 
+ } digraph "com.lab:task:war:1.0" { 
+	"com.lab:task:war:1.0" -> "junit:junit:jar:3.8.1:test" ; 
+ } digraph "com.lab:task:war:1.0" { 
+	"com.lab:task:war:1.0" -> "junit:junit:jar:3.8.1:test" ; 
+ } digraph "com.lab:task:war:1.0" { 
+	"com.lab:task:war:1.0" -> "junit:junit:jar:3.8.1:test" ; 
+ } digraph "com.lab:task:war:1.0" { 
+	"com.lab:task:war:1.0" -> "junit:junit:jar:3.8.1:test" ; 
+ } 
